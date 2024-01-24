@@ -9,27 +9,27 @@
 <body>
     <form class="reg-form">
         <div>
-            <label class="name-label">Name:</label>
-            <input class="name" type="text" placeholder="name" required>
+            <label class="name-label">Name:<input class="name" type="text" name="name" 
+                placeholder="name" autocomplete="given-name" required></label>
         </div>
         <div>
-            <label class="user-label">Username:</label>
-            <input class="user" type="text" placeholder="username" required>
+            <label class="user-label">Username:<input class="user" type="text" name="user" 
+                placeholder="username" autocomplete="username" required></label>
         </div>
         <div>
-            <label class="e-mail-label">Email:</label>
-            <input class="e-mail" type="email" name="email" id="" placeholder="your@email.com" required>
+            <label class="e-mail-label">Email:<input class="e-mail" type="email" name="email" id="" 
+                placeholder="your@email.com" autocomplete="email" required></label>
         </div>
         <div>
-            <label class="pwd-label">Password:</label>
-            <input class="pwd" type="password" required>
+            <label class="pwd-label">Password:<input class="pwd" type="password" name="pwd" 
+                required></label>
         </div>
         <div>
-            <label class="conf-pwd-label">Confirm password:</label>
-            <input class="conf-pwd" type="password" required>
+            <label class="conf-pwd-label">Confirm password:<input class="conf-pwd" type="password" 
+                name="conf-pwd" required></label>
         </div>
         <div>
-            <button id="submit-btn" >SUBMIT</button>
+            <button type="submit">SUBMIT</button>
         </div>
     </form>
     <script type="module" src="index.js"></script>
