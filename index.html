@@ -9,33 +9,28 @@
 <body>
     <form class="reg-form">
         <div>
-            <label class="name">Name:</label>
-            <input class="name" type="text" placeholder="name">
+            <label class="name-label">Name:</label>
+            <input class="name" type="text" placeholder="name" required>
         </div>
         <div>
-            <label class="user">Username:</label>
-            <input class="user" type="text" placeholder="username">
+            <label class="user-label">Username:</label>
+            <input class="user" type="text" placeholder="username" required>
         </div>
         <div>
-            <label class="e-mail">Email:</label>
-            <input class="e-mail" type="email" name="email" id="" placeholder="your@email.com">
+            <label class="e-mail-label">Email:</label>
+            <input class="e-mail" type="email" name="email" id="" placeholder="your@email.com" required>
         </div>
         <div>
-            <label class="pwd">Password:</label>
-            <input class="pwd" type="password">
+            <label class="pwd-label">Password:</label>
+            <input class="pwd" type="password" required>
         </div>
         <div>
-            <label class="conf-pwd">Confirm password:</label>
-            <input class="conf-pwd" type="password">
+            <label class="conf-pwd-label">Confirm password:</label>
+            <input class="conf-pwd" type="password" required>
         </div>
         <div>
-            <button type="submit">SUBMIT</button>
+            <button id="submit-btn" >SUBMIT</button>
         </div>
-        
-        
-       
-        
-       
     </form>
     <script type="module" src="index.js"></script>
 </body>
