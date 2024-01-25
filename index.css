@@ -2,3 +2,36 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+html {
+    background-color: #81bbdf;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    margin-top: 80px;
+}
+
+form {
+    text-align: left;
+    background-color: aliceblue;
+    width: 500px;
+    margin: 80px auto;
+    padding: 32px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+form div {
+    border: 1px solid darkblue;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form button {
+    border: none;
+}
+

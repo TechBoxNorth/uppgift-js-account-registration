@@ -1,7 +1,7 @@
 const form = document.querySelector('.reg-form');
 form.addEventListener("submit", (e) => {
     e.preventDefault();
-    console.log('Form was submitted!');
+    console.log(nameInput.value);
 });
 
 // Name
@@ -68,7 +68,7 @@ confPwdInput.addEventListener('input', () => {
 // button
 const submitBtn = document.querySelector('button');
 submitBtn.addEventListener("click", (e) => {
-    console.log('This is the event: ', e.target);
+    //console.log('This is the event: ', e.target);
 })
 
 
