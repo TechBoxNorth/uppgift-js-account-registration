@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>Account Registration</title>
 </head>
 <body>
@@ -11,36 +14,36 @@
     <div class="form-container">
         <h1 class="title">Register your account</h1>
         <form class="reg-form">
-            <div>
-                <label class="name-label">Name:</label>
+            <fieldset>
+                <legend><label class="name-label">Name:</label></legend>
                 <input class="name" type="text" name="name" 
                     placeholder="name" autocomplete="given-name" required>
-            </div>
-            <div>
-                <label class="user-label">Username:</label>
+            </fieldset>
+            <fieldset>
+                <legend><label class="user-label">Username:</label></legend>
                 <input class="user" type="text" name="user" 
                     placeholder="username" autocomplete="username" required>
-            </div>
-            <div>
-                <label class="e-mail-label">Email:</label>
+            </fieldset>
+            <fieldset>
+                <legend><label class="e-mail-label">Email:</label></legend>
                 <input class="e-mail" type="email" name="email" id="" 
                     placeholder="your@email.com" autocomplete="email" required>
-            </div>
-            <div>
-                <label class="pwd-label">Password:</label>
+            </fieldset>
+            <fieldset class="pwd-field">
+                <legend><label class="pwd-label">Password:</label></legend>
                 <input class="pwd" type="password" name="pwd" 
                     required>
-            </div>
-            <div>
-                <label class="conf-pwd-label">Confirm password:</label>
+            </fieldset>
+            <fieldset class="conf-pwd-field">
+                <legend><label class="conf-pwd-label">Confirm password:</label></legend>
                 <input class="conf-pwd" type="password" 
                     name="conf-pwd" required>
-            </div>
+            </fieldset>
             
             <button type="submit">SUBMIT</button>
             
         </form>
-        <h1 class="error-info"></h1>
+        <h1 class="error-info">Your password is too stupid!</h1>
     </div>
     
     <script type="module" src="index.js"></script>

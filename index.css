@@ -6,6 +6,7 @@
 html {
     background-color: #81bbdf;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .title {
@@ -25,13 +26,34 @@ form {
     gap: 32px;
 }
 
-form div {
-    border: 1px solid darkblue;
+form fieldset {
+    border: 1px solid #577f97;
     padding: 20px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
 }
+
+form fieldset input {
+    background-color: aliceblue;
+    border: none;
+    font-size: 20px;
+}
+
 
 form button {
     border: none;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #577f97;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px gray;
+}
+
+.error-info {
+    color: rgb(210, 15, 15);
 }
 
